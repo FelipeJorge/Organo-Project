@@ -1,8 +1,10 @@
 
 import { useState } from 'react';
 import Banner from './components/Banner';
+import Footer from './components/Footer';
 import Form from './components/Form';
 import Time from './components/Time';
+
 
 
 function App() {
@@ -61,10 +63,15 @@ function App() {
         nome={time.nome} 
         corPrimaria ={time.corPrimaria} 
         corSecundaria={time.corSecundaria}
-        players={players.filter(player => player.time === time.nome)}
+        
+        players={players.filter(player => player.mapa === time.nome)}
         />)}
+      <Footer />
     </div>
   );
+  
 }
+
+
 
 export default App;

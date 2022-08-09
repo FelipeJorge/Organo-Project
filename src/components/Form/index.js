@@ -20,6 +20,11 @@ const Form = (props) => {
             imagem,
             mapa
         })
+        //reseta o preechimento do formulário
+        setNome('')
+        setFuncao('')
+        setImagem ('')
+        setMapa ('')
     }
 
     return (

@@ -8,7 +8,7 @@ const Player = ({nome , imagem ,funcao}) => {
         </div>
         <div className='rodape'>
             <h4>{nome}</h4>
-            <h5>{funcao}r</h5>
+            <h5>{funcao}</h5>
         </div>
            
     </div>
