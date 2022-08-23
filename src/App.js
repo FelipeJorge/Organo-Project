@@ -50,6 +50,7 @@ function App() {
   const [players,setPlayers] = useState([])
 
   const newPlayer = (player)=>{
+    debugger
     setPlayers([...players, player])
   }
 

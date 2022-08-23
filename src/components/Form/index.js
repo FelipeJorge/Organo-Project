@@ -34,7 +34,7 @@ const Form = (props) => {
                 <TextContent 
                     obrigatorio={true} 
                     label="Nome do Jogador" 
-                    placeholder="Digite o nome" 
+                    placeholder="Digite o seu nick" 
                     valor={nome}
                     alterado={valor => setNome(valor)}
                 />
@@ -46,8 +46,8 @@ const Form = (props) => {
                     alterado={valor => setFuncao(valor)} 
                 />
                 <TextContent 
-                    label="Icone" 
-                    placeholder="Digite o endereço da sua imagem" 
+                    label="Link do Github" 
+                    placeholder="Digite o endereço e ao final adicione (.png)" 
                     valor={imagem}
                     alterado={valor => setImagem(valor)}
                 />

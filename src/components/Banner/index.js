@@ -1,10 +1,14 @@
+import { Fragment } from 'react';
 import './Banner.css'
 
 function Banner (){
     return (
-        <header className='banner'>
+        <Fragment>
+            <header className='banner'>
             <img src="/img/banner1x.png" alt="banner principal"/>
-        </header>
+            </header>
+        </Fragment>
+
     )
 
 
